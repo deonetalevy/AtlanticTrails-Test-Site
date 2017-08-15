@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<!--Deone'Ta Levy
+	Web Based IT
+	Project 6
+	04/26/2015
+	-->
+	
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="stylesheets/atlantictrailsstructure.css">
+	<link rel="stylesheet" type="text/css" href="stylesheets/atlantictrailspresentation.css">
+	<title>Atlantic Trails Resort</title>
+</head>
+
+<body role="main">
+
+	<div id="windowContainer">
+		
+		<h1 role="banner">
+			Atlantic Trails Resort
+		</h1>
+
+		<nav role="navigation">
+			<ul>
+				<li>
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="accommodations.html">Accommodations</a>
+				</li>
+				<li>
+					<a href="activities.html">Activities</a>
+				</li>
+				<li>
+					<a href="reservations.html">Reservations</a>
+				</li>
+			</ul>
+		</nav>
+
+		<div id="contentContainer">
+			
+			<h2 id="reservationsHeader2">
+				Reservations at Atlantic Trails
+			</h2>
+
+			<h3 class="reservationsHeader3">
+				Contact Us Today!
+			</h3>
+			
+			Required fields are marked with an asterisk * <br><br>
+			
+			<form id="reservationForm" action="submitted.php">
+				<input type="text" name="fname"><br><br>
+				<input type="text" name="lname"><br><br>
+				<input type="text" name="email"><br><br>
+				<input type="text" name="phone"><br><br>
+				<input type="date" name="date"><br><br>
+				<input type="text" name="nights"><br><br>
+				<textarea name="comments"></textarea><br><br>
+				<input type="submit" name="submit" value="Submit">
+			</form>
+			
+			<div id="labels">
+				*First Name: <br><br>
+				*Last Name: <br><br>
+				*E-mail: <br><br>
+				Phone: <br><br>
+				Arrival Date: <br><br>
+				Nights: <br><br>
+				*Comments:
+			</div>
+			
+			<footer role="contentinfo" id="footer">
+				Copyright &copy; 2015 Atlantic Trails Resort<br>
+				<a href="mailto:deoneta.levy@bigglez.com">
+				deoneta.levy@levy.com
+				</a><br>
+			</footer>
+		</div>
+	</div>
+	<script type="text/javascript" src="javascript/atlantictrailsjavascript.js"></script>
+</body>

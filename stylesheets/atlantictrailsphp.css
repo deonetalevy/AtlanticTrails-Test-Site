@@ -1,0 +1,46 @@
+/*Deone'Ta Levy
+	Web Based IT
+	Project 6
+	04/26/2015
+	*/
+	
+body {
+	background-image: url("../img/ptrbackground.jpg");
+	text-align: justify;
+    text-justify: inter-word;
+}
+
+#windowContainer {
+	margin:5%;	
+}
+h1 {
+	padding-left: 1%;
+	background-image: url("../img/sunset.jpg");
+	background-size: 100% 100%;
+	color: white;
+	font-size: 4em;
+	margin-bottom: 0;
+	text-align: justify;
+    text-justify: inter-word;
+}
+
+#submittedContentContainer {
+	float: left;
+	padding: 3%;
+	padding-top: 0;
+	background-color: white;
+	width: 94%;
+}
+
+#submittedHeader2 {
+	color: lightBlue;
+	font-size: 2em;
+}
+
+footer {
+	clear: both;
+	float: left;
+	margin-top: 6em;
+	text-align: justify;
+    text-justify: inter-word;
+}

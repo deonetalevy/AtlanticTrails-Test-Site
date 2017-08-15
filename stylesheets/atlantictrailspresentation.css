@@ -1,0 +1,85 @@
+/*Deone'Ta Levy
+	Web Based IT
+	Project 6	
+	04/26/2015
+	*/
+
+h1 {
+	padding-left: 1%;
+	background-image: url("../Images/sunset.jpg");
+	background-size: 100% 100%;
+	color: white;
+	font-size: 4em;
+	margin-bottom: 0;
+	text-align: justify;
+    text-justify: inter-word;
+}
+
+nav {
+	margin: 0;
+	padding-left: 2%;
+	padding-top: 2%;
+	width: 28%;
+	height: 100%;
+	background-color: lightBlue;
+	float: left;
+	text-align: justify;
+    text-justify: inter-word;
+
+}
+
+li a:link {
+	color: darkBlue;
+	text-decoration: none;
+	text-align: justify;
+    text-justify: inter-word;
+
+}
+
+li a:visited {
+	color: steelBlue;
+	text-align: justify;
+    text-justify: inter-word;
+}
+
+li a:hover {
+	color: white;
+	text-align: justify;
+    text-justify: inter-word;
+
+}
+
+#contentContainer {
+	float: left;
+	padding: 3%;
+	padding-top: 0;
+	background-color: white;
+	width: 64%;
+	display: inline-block;
+}
+
+#indexHeader {
+	color: lightBlue;
+	font-size: 2em;
+}
+
+#accommodationsHeader2 {
+	color: lightBlue;
+	font-size: 1.35em;
+}
+
+.accommodationsHeader3 {
+	font-weight: bold;
+	font-size: 1.15em;
+}
+
+#activitiesHeader2 {
+	color: lightBlue;
+	font-size: 1.75em;
+}
+
+#reservationsHeader2 {
+	color: lightBlue;
+	font-size: 1.5em;
+}
+	

@@ -1,0 +1,103 @@
+/*Deone'Ta Levy
+	Web Based IT
+	Project 6
+	04/26/2015
+	*/
+	
+body {
+	background-image: url("../Images/ptrbackground.jpg");
+	text-align: justify;
+    text-justify: inter-word;
+}
+
+#windowContainer {
+	height: 100%; 
+	margin: 5%;	
+}
+
+nav li {
+	list-style: none;
+	font-family: arial;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.indexLi {
+	/*list-style: none;*/
+	list-style-image: url('marker.gif');
+
+
+}
+
+
+
+
+img {
+	float: left;
+	padding-right: 2%;
+	display: inline-block;
+}
+
+#coastImg {
+	width: 50%;
+}
+
+#bungalowImg {
+	width: 40%;
+}
+
+#trailImg {
+	width: 50%;
+}
+
+.bodySpan {
+	clear: left;
+}
+
+.indexHeaders {
+	color: lightBlue;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+footer {
+	clear: both;
+	float: left;
+	margin-top: 6em;
+	text-align: justify;
+    text-justify: inter-word;
+}
+
+table, tr, td, th {
+	border: 3px solid lightBlue;
+	border-collapse: collapse;
+	text-align: center;
+
+}
+
+th {
+	height: 3em;
+}
+
+tr {
+	height: 2em;
+}
+
+.descriptionCell {
+	text-align: left;
+}
+
+#labels {
+	text-align: right;
+	float: right;
+}
+
+#reservationForm {
+	float: right;
+	margin-left: 2em;
+}
+form {
+	margin-right: 60%;
+	text-align: justify;
+    text-justify: inter-word;
+}
